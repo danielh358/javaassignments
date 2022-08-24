@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!--HEAD -->
+  <head>
+    <title>UI Fundamentals</title>
+    <link rel="stylesheet" href="css/bootstrap.css" />
+  </head>
+  <!--Body-->
+  <body>
+    <canvas id="maincan"></canvas>
+    <div class = "wrapper text-center">
+        <main class="container-fluid">
+            <button id = "btn1" type="button" class="btn btn-outline-primary">Primary</button>
+            <button id = "btn2" type="button" class="btn btn-outline-secondary">Secondary</button>
+            <button id = "btn3" type="button" class="btn btn-outline-success">Success</button>
+            <button id = "btn4" type="button" class="btn btn-outline-danger">Danger</button>
+            <button id = "btn5" type="button" class="btn btn-outline-warning">Warning</button>
+            <button id = "btn6" type="button" class="btn btn-outline-info">Info</button>
+            <button id = "btn7" type="button" class="btn btn-outline-light">Light</button>
+            <button id = "btn8" type="button" class="btn btn-outline-dark">Dark</button>
+        </main>
+    </div>
+  </body>
+  <!-- SCRIPTS-->
+  <script type = "text/javascript">
+    
+    const btn1 = document.getElementById("btn1");
+
+    function onclick1() {
+        document.body.style.backgroundColor = "#007bff";
+    }
+
+    btn1.addEventListener("click", () => onclick1());
+
+    const btn2 = document.getElementById("btn2");
+
+    function onclick2() {
+        document.body.style.backgroundColor = "#6c757d";
+    }
+
+    btn2.addEventListener("click", () => onclick2());
+
+    const btn3 = document.getElementById("btn3");
+
+    function onclick3() {
+        document.body.style.backgroundColor = "#28a745";
+    }
+
+    btn3.addEventListener("click", () => onclick3());
+    const btn4 = document.getElementById("btn4");
+
+    function onclick4() {
+        document.body.style.backgroundColor = "#dc3545";
+    }
+
+    btn4.addEventListener("click", () => onclick4());
+    const btn5 = document.getElementById("btn5");
+
+    function onclick5() {
+        document.body.style.backgroundColor = "#ffc107";
+    }
+
+    btn5.addEventListener("click", () => onclick5());
+
+    const btn6 = document.getElementById("btn6");
+
+    function onclick6() {
+        document.body.style.backgroundColor = "#17a2b8";
+    }
+
+    btn6.addEventListener("click", () => onclick6());
+
+    const btn7 = document.getElementById("btn7");
+
+    function onclick7() {
+        document.body.style.backgroundColor = "#f8f9fa";
+    }
+
+    btn7.addEventListener("click", () => onclick7());
+
+
+    const btn8 = document.getElementById("btn8");
+
+    function onclick8() {
+        document.body.style.backgroundColor = "#343a40";
+    }
+
+    btn8.addEventListener("click", () => onclick8());
+        
+
+
+  </script>
+</html>
